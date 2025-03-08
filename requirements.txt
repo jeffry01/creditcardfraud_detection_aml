@@ -1,6 +1,7 @@
-Flask==2.0.3           # Use a version that works with older Werkzeug if needed
+Flask==2.0.3
+Werkzeug==2.0.3
 gunicorn==20.1.0
 pandas==1.5.3
-scikit-learn==1.6.1    # Match the version used during pickling
+scikit-learn==1.6.1
 joblib==1.2.0
-numpy==1.24.2          # Use a compatible NumPy version (adjust if necessary)
+numpy==1.24.2
